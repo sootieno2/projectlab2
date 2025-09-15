@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Media — GreenSteps</title>
+<meta name="description" content="Media resources: images, video with captions, and audio for GreenSteps educational materials.">
+<link rel="canonical" href="/media.html">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+
+<header>
+<h1>Media Library</h1>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/media.html">Media</a></li>
+<li><a href="/extras.html">Extras</a></li>
+</ul>
+</nav>
+</header>
+
+
+<main id="main" tabindex="-1">
+<article>
+<h2>Images</h2>
+
+<figure>
+  <picture>
+    <source media="(min-width:1200px)" srcset="Assets/Images/image1-large.jpg 1200w">
+    <source media="(min-width:600px)" srcset="Assets/Images/image1-medium.jpg 600w">
+    <img 
+      src="Assets/Images/image1.jpg"
+      srcset="Assets/Images/image1-small.jpg 300w, Assets/Images/image1-medium.jpg 600w, Assets/Images/image1-large.jpg 1200w" 
+      sizes="(max-width:600px) 300px, (max-width:1200px) 600px, 1200px" 
+      alt="Butterflies on a flower">
+  </picture>
+  <figcaption>Butterflies</figcaption>
+</figure>
+
+
+
+
+
+<section>
+<h3>Audio</h3>
+<p>Short audio explaining how to prepare simple compost.</p>
+<audio controls>
+<source src="assets/audio/sample.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</section>
+
+
+<section>
+<h3>Video with captions</h3>
+<video controls width="640">
+<source src="assets/video/sample.webm" type="video/webm">
+<source src="assets/video/sample.mp4" type="video/mp4">
+<track src="assets/captions/sample.vtt" kind="captions" srclang="en" label="English captions" default>
+Your browser does not support the video element.
+</video>
+</section>
+
+
+</article>
+</main>
+
+
+<footer>
+<p>Return to <a href="/index.html">Home</a>.</p>
+</footer>
+</body>
+</html>
